@@ -4,7 +4,7 @@ An end-to-end Machine Learning classification project developed for the **Machin
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The objective of this project is to build and evaluate machine learning models capable of predicting whether a patient is Non-Diabetic, Prediabetic, or Diabetic based on clinical and medical data. The study compares two primary supervised learning algorithms: **Logistic Regression** and **Random Forest**.
 
@@ -17,7 +17,7 @@ The objective of this project is to build and evaluate machine learning models c
 
 ---
 
-## 📊 Dataset Summary
+## Dataset Summary
 
 * **Source:** Kaggle (Diabetes Prediction Dataset)
 * **Dataset Size:** 1,000 samples / rows, 14 features
@@ -50,7 +50,7 @@ The objective of this project is to build and evaluate machine learning models c
 
 ---
 
-## 🔍 Key Findings from Exploratory Data Analysis (EDA)
+##  Key Findings from Exploratory Data Analysis (EDA)
 
 1. **HbA1c Level Ranges by Class:**
    * **Class 0 (Non-Diabetic):** 4.0 – 5.2
@@ -64,7 +64,7 @@ The objective of this project is to build and evaluate machine learning models c
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```
 1. Load Dataset ➡️ 2. Data Cleaning & EDA ➡️ 3. Preprocessing (StandardScaler, Encoding)
@@ -79,7 +79,7 @@ The objective of this project is to build and evaluate machine learning models c
 
 ---
 
-## 📈 Feature Importance (Random Forest)
+##  Feature Importance (Random Forest)
 
 1. **HbA1c** (Highest influence)
 2. **BMI**
@@ -95,7 +95,7 @@ The objective of this project is to build and evaluate machine learning models c
 
 ---
 
-## 📊 Comparative Performance Analysis
+##  Comparative Performance Analysis
 
 ### Evaluation Metrics (Test Set - 200 samples)
 | Metric | Logistic Regression | Random Forest |
@@ -117,7 +117,7 @@ The objective of this project is to build and evaluate machine learning models c
 
 ---
 
-## ⚠️ Challenges & Lessons Learned
+##  Challenges & Lessons Learned
 
 * **Data Cleaning:** Categorical columns contained trailing whitespace strings which caused encoding issues prior to normalization.
 * **Preprocessing Rules:** Learned the importance of model-specific preprocessing (e.g., applying `StandardScaler` to Logistic Regression vs. leaving decision tree ensembles on unscaled numerical ranges).
@@ -130,11 +130,11 @@ The objective of this project is to build and evaluate machine learning models c
 * **Random Forest** is the recommended model for this diabetes prediction task, achieving superior performance with **99.50% accuracy** compared to **94.50% for Logistic Regression**.
 * The project successfully demonstrates how machine learning algorithms can analyze clinical metrics (especially HbA1c, BMI, and Age) to assist medical professionals in early diabetes diagnosis.
 # To Run the Demo 
-* Python 3.12.4
-* python -m pip install fastapi uvicorn streamlit scikit-learn joblib requests
-* python -m uvicorn api:app --reload
-* python -m streamlit run app.py
-# Technologies Used
+- Python 3.12.4
+- python -m pip install fastapi uvicorn streamlit scikit-learn joblib requests
+- python -m uvicorn api:app --reload
+- python -m streamlit run app.py
+- Technologies Used
 
 - Google Collab
 - Pandas
