@@ -1,6 +1,6 @@
 # Diabetes Prediction Project
 
-An end-to-end Machine Learning classification project developed for the **Machine Learning** course at **Phnom Penh International University (PPIU)**.
+Machine Learning classification project developed for the **Machine Learning** course at **Phnom Penh International University (PPIU)**.
 
 ---
 
