@@ -130,13 +130,13 @@ The objective of this project is to build and evaluate machine learning models c
 * **Random Forest** is the recommended model for this diabetes prediction task, achieving superior performance with **99.50% accuracy** compared to **94.50% for Logistic Regression**.
 * The project successfully demonstrates how machine learning algorithms can analyze clinical metrics (especially HbA1c, BMI, and Age) to assist medical professionals in early diabetes diagnosis.
 # To Run the Demo 
-Python 3.12.4
-python -m pip install fastapi uvicorn streamlit scikit-learn joblib requests
-python -m uvicorn api:app --reload
-python -m streamlit run app.py
+* Python 3.12.4
+* python -m pip install fastapi uvicorn streamlit scikit-learn joblib requests
+* python -m uvicorn api:app --reload
+* python -m streamlit run app.py
 # Technologies Used
 
-- Jupyter Notebook
+- Google Collab
 - Pandas
 - NumPy
 - Matplotlib
